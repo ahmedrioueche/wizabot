@@ -1,0 +1,33 @@
+export const dict: any = {
+  en: {
+    logo: 'Wizabot',
+    slogan: 'Your Intelligent Business Assistant',
+    login: 'Login',
+    logout: 'Logout',
+    usernamePlaceholder: 'Username',
+    passwordPlaceholder: 'Password',
+    pleaseFillAllFields: 'Please fill in all fields',
+    passwordLength: 'Password must be at least 8 characters long',
+    userAlreadyExists: 'User already exists!',
+    loginFailed: 'Login failed',
+    checkCredentails: 'Please check your credentials.',
+    details: 'Details',
+    success: 'Success',
+    edit: 'Edit',
+    delete: 'Delete',
+    sortBy: 'SortBy',
+    searchPlaceholder: 'Search for a user',
+    user: {
+      name: 'Name',
+      whatsapp: 'WhatsApp',
+      creationDate: 'Creation Date',
+      other: 'Other Details',
+      usersTitle: 'Users',
+    },
+    sortOptions: [
+      { value: 'name', label: 'Sort by Name' },
+      { value: 'joinDate', label: 'Sort by Join Date' },
+      { value: 'activeUsers', label: 'Sort by Status' },
+    ],
+  },
+};
